@@ -1,0 +1,44 @@
+<div class="div">STUDENT LIST</div>
+<nav class="navbar">
+  <input
+    class="form-control"
+    type="text"
+    name="StudentName"
+    [(ngModel)]="StudentName"
+    placeholder="Enter the name to search"
+  />
+</nav>
+<button type="submit" (click)="Search()">Search</button>
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>StudentId</th>
+
+      <th>StudentName</th>
+
+      <th>StudentMarks</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr
+      class="same"
+      *ngFor="
+        let std of student | paginate: { itemsPerPage: 5, currentPage: p }
+      "
+    >
+      <td>{{ std.StudentId }}</td>
+
+      <td>{{ std.StudentName }}</td>
+
+      <td>{{ std.StudentMarks }}</td>
+    </tr>
+  </tbody>
+</table>
+<div>
+  <pagination-controls
+    class="page"
+    (pageChange)="p = $event"
+  ></pagination-controls>
+</div>

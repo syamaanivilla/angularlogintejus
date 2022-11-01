@@ -1,0 +1,51 @@
+.div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: cadetblue;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: solid black;
+  text-shadow: 2px;
+}
+.form-control {
+  border: 2px solid red;
+  border-radius: 4px;
+  background-color: floralwhite;
+  width: 600px;
+  margin-left: 150px;
+  margin-top: 10px;
+}
+th {
+  background-color: darkgray;
+}
+.same:nth-child(even) {
+  color: blueviolet;
+  background-color: skyblue;
+}
+.same:nth-child(odd) {
+  color: olivedrab;
+  background-color: pink;
+}
+.page {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: lightsteelblue;
+}
+button {
+  position: absolute;
+  top: 40px;
+  right: 400px;
+  height: 40px;
+  width: 120px;
+  cursor: pointer;
+  font-size: medium;
+  font-weight: 100;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+  color: black;
+  background-color: goldenrod;
+  border-radius: 10px;
+  
+}

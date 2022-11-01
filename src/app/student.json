@@ -1,0 +1,23 @@
+{
+  "Students": [
+    { "StudentId": 1, "StudentName": "syama", "StudentMarks": 90 },
+    { "StudentId": 2, "StudentName": "vivek", "StudentMarks": 90 },
+    { "StudentId": 3, "StudentName": "girija", "StudentMarks": 90 },
+    { "StudentId": 4, "StudentName": "siva", "StudentMarks": 90 },
+    { "StudentId": 5, "StudentName": "subha", "StudentMarks": 90 },
+    { "StudentId": 6, "StudentName": "krish", "StudentMarks": 90 },
+    { "StudentId": 7, "StudentName": "phani", "StudentMarks": 90 },
+    { "StudentId": 8, "StudentName": "renu", "StudentMarks": 90 },
+    { "StudentId": 9, "StudentName": "kamesh", "StudentMarks": 90 },
+    { "StudentId": 10, "StudentName": "kamalesh", "StudentMarks": 90 },
+    { "StudentId": 11, "StudentName": "satish", "StudentMarks": 90 },
+    { "StudentId": 12, "StudentName": "kowshik", "StudentMarks": 90 },
+    { "StudentId": 13, "StudentName": "gowtham", "StudentMarks": 90 },
+    { "StudentId": 14, "StudentName": "sriram", "StudentMarks": 90 },
+    { "StudentId": 15, "StudentName": "akhila", "StudentMarks": 90 },
+    { "StudentId": 16, "StudentName": "chandhu", "StudentMarks": 90 },
+    { "StudentId": 17, "StudentName": "madhura", "StudentMarks": 90 },
+    { "StudentId": 18, "StudentName": "venkat", "StudentMarks": 90 },
+    { "StudentId": 19, "StudentName": "Renu", "StudentMarks": 90 }
+  ]
+}
